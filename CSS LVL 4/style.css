@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black ;
+}
+#container{
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
+}
+
+#Box1{
+    background-color: aqua;
+}
+#Box2{
+    background-color: blue;
+}
+#Box3{
+    background-color: brown;
+}
+#Box4{
+    background-color: chartreuse;
+}
+#Box5{
+    background-color: blueviolet;
+}

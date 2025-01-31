@@ -1,0 +1,11 @@
+#box1{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+}
+@media (min-width : 600px) and (max-width : 900px)
+{
+    #box1{
+        background-color: black;
+    }
+}

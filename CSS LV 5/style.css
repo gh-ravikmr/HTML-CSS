@@ -1,0 +1,42 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic;
+    transition-delay: 2s; */
+    /* transition: all 2s ease-in 2s; */
+    /* rotate: z 90deg; */
+   transition: all 1s ease-in  ;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    
+}
+#box1:hover{
+    background-color: black;
+    transition-duration: 1ms;
+}
+#box1:active{
+    background-color: pink;
+}
+/* #box1:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transform: translate(1000px)
+
+
+} */
+ 
+@keyframes colorAnimate{
+    from {left: 0px;}
+    to {right: 100px;}
+}
